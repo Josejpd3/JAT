@@ -41,6 +41,18 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Webpack
+.webpack/
+webpack.main.config.js
+webpack.renderer.config.js
+webpack.rules.js
+
+# Forge
+forge.config.js
+
+# Vscode
+.vscode
+
 # TypeScript v1 declaration files
 typings/
 
@@ -49,6 +61,7 @@ typings/
 
 # Optional npm cache directory
 .npm
+package-lock.json
 
 # Optional eslint cache
 .eslintcache
