@@ -1,0 +1,663 @@
+[
+  {
+    "counterId": 0,
+    "compName": "Youtube",
+    "place": "Orlando, FL",
+    "position": "Software Developer",
+    "estSalary": "30,000",
+    "stat": "Applied",
+    "dateApplied": "6/23/22",
+    "contact": "klk@klk.com"
+  },
+  {
+    "counterId": 1,
+    "compName": "PSW CORPORATION",
+    "place": "Remote",
+    "position": "Web Developer",
+    "estSalary": "$62k-$100k",
+    "stat": "Applied",
+    "dateApplied": "7/10/22",
+    "contact": "psw-corp.com"
+  },
+  {
+    "counterId": 2,
+    "compName": "Hooray Agency",
+    "place": "Remote",
+    "position": "Jr. Front End Web Developer",
+    "estSalary": "$64.3K-$81.5K",
+    "stat": "Applied",
+    "dateApplied": "7/10/22",
+    "contact": "hooray.agency"
+  },
+  {
+    "counterId": 3,
+    "compName": "ResultStack",
+    "place": "Remote",
+    "position": "Front End Developer",
+    "estSalary": "$82.6K-$105K",
+    "stat": "Applied",
+    "dateApplied": "7/10/22",
+    "contact": "resultstack.com"
+  },
+  {
+    "counterId": 4,
+    "compName": "Wycliffe Associates",
+    "place": "Orlando, FL 32832",
+    "position": "Software Developer I",
+    "estSalary": "$50,000-$65,000",
+    "stat": "Applied",
+    "dateApplied": "7/10/22",
+    "contact": "bibletechs.org"
+  },
+  {
+    "counterId": 5,
+    "compName": "Vaco",
+    "place": "Orlando, FL",
+    "position": "Front End Developer",
+    "estSalary": "$50K - $104K",
+    "stat": "Applied",
+    "dateApplied": "7/10/22",
+    "contact": "vaco.com"
+  },
+  {
+    "counterId": 6,
+    "compName": "Indeed",
+    "place": "Remote",
+    "position": "Software Engineer I",
+    "estSalary": "$90k-$130k",
+    "stat": "Applied",
+    "dateApplied": "7/10/22",
+    "contact": "indeed.com"
+  },
+  {
+    "counterId": 7,
+    "compName": "Nebo Agency",
+    "place": "Hybrid Remote",
+    "position": "Front-End Engineer",
+    "estSalary": "$78K-$98.8K",
+    "stat": "Applied",
+    "dateApplied": "7/10/22",
+    "contact": "neboagency.com"
+  },
+  {
+    "counterId": 8,
+    "compName": "Jules Consulting",
+    "place": "Remote",
+    "position": "Developer Experience Engineer",
+    "estSalary": "$90,000 - ?",
+    "stat": "Applied",
+    "dateApplied": "7/10/22",
+    "contact": "julesconsulting.com"
+  },
+  {
+    "counterId": 9,
+    "compName": "Thoughtprocess Interactive",
+    "place": "Remote",
+    "position": "Front-End Web Developer",
+    "estSalary": "$50k-?",
+    "stat": "Applied",
+    "dateApplied": "7/10/22",
+    "contact": "thoughtprocessinteractive.com"
+  },
+  {
+    "counterId": 10,
+    "compName": "WAM DevTech, Inc.",
+    "place": "Remote",
+    "position": "Front-End Developer/Designer - React.js",
+    "estSalary": "$70 - $80 an hour",
+    "stat": "Applied",
+    "dateApplied": "7/10/22",
+    "contact": ""
+  },
+  {
+    "counterId": 11,
+    "compName": "Iron Galaxy Studios",
+    "place": "Orlando, FL ",
+    "position": "Software Engineer",
+    "estSalary": "$81.1K-$103K",
+    "stat": "Applied",
+    "dateApplied": "7/10/22",
+    "contact": "irongalaxystudios.com"
+  },
+  {
+    "counterId": 12,
+    "compName": "Avero",
+    "place": "Remote",
+    "position": "Front End Engineer",
+    "estSalary": "$105k-$125k",
+    "stat": "Applied",
+    "dateApplied": "7/10/22",
+    "contact": "averoinc.com"
+  },
+  {
+    "counterId": 13,
+    "compName": "Datrose, Inc",
+    "place": "Remote",
+    "position": "Software Engineer",
+    "estSalary": "$80-$90 an hour",
+    "stat": "Rejected",
+    "dateApplied": "7/10/22",
+    "contact": "datrose"
+  },
+  {
+    "counterId": 14,
+    "compName": "Clarity Ventures",
+    "place": "Remote",
+    "position": "Front End Web Dev",
+    "estSalary": "$35k-$70k",
+    "stat": "Applied",
+    "dateApplied": "7/11/22",
+    "contact": "clarity-ventures.com"
+  },
+  {
+    "counterId": 15,
+    "compName": "Owners",
+    "place": "Remote",
+    "position": "Founding Software Engineer",
+    "estSalary": "$90.5K-$115K",
+    "stat": "Applied",
+    "dateApplied": "7/11/22",
+    "contact": ""
+  },
+  {
+    "counterId": 16,
+    "compName": "Plansource",
+    "place": "Orlando, FL 32801",
+    "position": "Front End Developer",
+    "estSalary": "$100K",
+    "stat": "Applied",
+    "dateApplied": "7/11/22",
+    "contact": "plansource"
+  },
+  {
+    "counterId": 17,
+    "compName": "Infinity Software Development, Inc",
+    "place": "Remote",
+    "position": "Software Developer",
+    "estSalary": "$80k-$125k",
+    "stat": "Applied",
+    "dateApplied": "7/11/22",
+    "contact": "infinity-software.com"
+  },
+  {
+    "counterId": 18,
+    "compName": "Itlize Global LLC",
+    "place": "Remote",
+    "position": "Entry Level : Web UI Developer",
+    "estSalary": "$60k",
+    "stat": "Rejected",
+    "dateApplied": "7/11/22",
+    "contact": "Itlize Global"
+  },
+  {
+    "counterId": 19,
+    "compName": "RubensteinTech",
+    "place": "Remote",
+    "position": "Front-end Software Engineer",
+    "estSalary": "$80.5K-$102K",
+    "stat": "Applied",
+    "dateApplied": "7/11/22",
+    "contact": "RubensteinTech"
+  },
+  {
+    "counterId": 20,
+    "compName": "Baanyan Software Services",
+    "place": "Remote",
+    "position": "Junior Software Engineer",
+    "estSalary": "$25 - $30 /hr",
+    "stat": "Applied",
+    "dateApplied": "7/11/22",
+    "contact": "Baanyan Software Services"
+  },
+  {
+    "counterId": 21,
+    "compName": "Jarvis Recruitment Group",
+    "place": "Remote",
+    "position": "Junior Front End Developer",
+    "estSalary": "$90k- $120k",
+    "stat": "Rejected",
+    "dateApplied": "7/11/22",
+    "contact": "Jarvis Recruitment Group"
+  },
+  {
+    "counterId": 22,
+    "compName": "The Home Depot",
+    "place": "Remote",
+    "position": "Software Engineer",
+    "estSalary": "$50k-$130k",
+    "stat": "Applied",
+    "dateApplied": "7/11/22",
+    "contact": "The Home Depot"
+  },
+  {
+    "counterId": 23,
+    "compName": "Cradlepoint",
+    "place": "Remote",
+    "position": "Software Intern",
+    "estSalary": "$48K-$103K",
+    "stat": "Applied",
+    "dateApplied": "7/11/22",
+    "contact": "cradlepoint"
+  },
+  {
+    "counterId": 24,
+    "compName": "Expedock",
+    "place": "Remote",
+    "position": "Software Engineer",
+    "estSalary": "$98K-$108K",
+    "stat": "Applied",
+    "dateApplied": "7/11/22",
+    "contact": "Expedock"
+  },
+  {
+    "counterId": 25,
+    "compName": "Wolfjaw Studios",
+    "place": "Remote",
+    "position": "Software Engineer - Frontend",
+    "estSalary": "$60K - $90K",
+    "stat": "Applied",
+    "dateApplied": "7/11/22",
+    "contact": "Wolfjaw Studios"
+  },
+  {
+    "counterId": 26,
+    "compName": "Assemble Inc.",
+    "place": "Remote",
+    "position": "Software Engineer",
+    "estSalary": "$90K - $120K",
+    "stat": "Applied",
+    "dateApplied": "7/11/22",
+    "contact": "Assemble Inc."
+  },
+  {
+    "counterId": 27,
+    "compName": "High5",
+    "place": "Remote",
+    "position": "Software Engineer - Frontend",
+    "estSalary": "?",
+    "stat": "Applied",
+    "dateApplied": "7/11/22",
+    "contact": "high5"
+  },
+  {
+    "counterId": 28,
+    "compName": "Jarvis Recruitment Group",
+    "place": "Florida",
+    "position": "Front End Developer",
+    "estSalary": "$100K-$130K",
+    "stat": "Applied",
+    "dateApplied": "7/12/22",
+    "contact": "Jarvis Recruitment Group"
+  },
+  {
+    "counterId": 29,
+    "compName": "PAIGE LLC",
+    "place": "Remote",
+    "position": "Junior Web Designer",
+    "estSalary": "$60K-$65K ",
+    "stat": "Applied",
+    "dateApplied": "7/12/22",
+    "contact": "PAIGE"
+  },
+  {
+    "counterId": 30,
+    "compName": "V-Soft Consulting Group, Inc",
+    "place": "Remote",
+    "position": "Front End Developer I",
+    "estSalary": "$57K-$105K",
+    "stat": "Applied",
+    "dateApplied": "7/12/22",
+    "contact": "V-Soft Consulting Group"
+  },
+  {
+    "counterId": 31,
+    "compName": "Emonics LLC",
+    "place": "Remote",
+    "position": "Entry Level Front End Developer",
+    "estSalary": "$64K - $105K",
+    "stat": "Applied",
+    "dateApplied": "7/12/22",
+    "contact": "Emonics"
+  },
+  {
+    "counterId": 32,
+    "compName": "Therigy",
+    "place": "Orlando, FL",
+    "position": "Software Engineer",
+    "estSalary": "$86K - $109K",
+    "stat": "Applied",
+    "dateApplied": "7/11/22",
+    "contact": "Therigy"
+  },
+  {
+    "counterId": 33,
+    "compName": "Electronic Caregiver Inc.",
+    "place": "Remote",
+    "position": "Application Development Engineer",
+    "estSalary": "$85k",
+    "stat": "Applied",
+    "dateApplied": "7/11/22",
+    "contact": "Electronic Caregiver"
+  },
+  {
+    "counterId": 34,
+    "compName": "Expedock",
+    "place": "Remote",
+    "position": "Software Engineer",
+    "estSalary": "$98k-$107k",
+    "stat": "Applied",
+    "dateApplied": "7/12/22",
+    "contact": "Expedock"
+  },
+  {
+    "counterId": 35,
+    "compName": "Wolfjaw Studios",
+    "place": "Remote",
+    "position": "Wolfjaw StudiosAssociate/Mid Software Engineer - Frontend",
+    "estSalary": "$60k-$90k",
+    "stat": "Applied",
+    "dateApplied": "Applied",
+    "contact": "Wolfjaw Studios"
+  },
+  {
+    "counterId": 36,
+    "compName": "Assemble Inc.",
+    "place": "Remote",
+    "position": "QA Software Engineer",
+    "estSalary": "$90k-$120k",
+    "stat": "Applied",
+    "dateApplied": "Assemble Inc.",
+    "contact": "7/11/22"
+  },
+  {
+    "counterId": 37,
+    "compName": "High5",
+    "place": "Remote",
+    "position": "Software Engineer - Frontend",
+    "estSalary": "$87.4K-$111K",
+    "stat": "Applied",
+    "dateApplied": "7/11/22",
+    "contact": "High5"
+  },
+  {
+    "counterId": 38,
+    "compName": "Jarvis Recruitment Group",
+    "place": "Florida",
+    "position": "Front End Developer",
+    "estSalary": "$100k-$130k",
+    "stat": "Applied",
+    "dateApplied": "7/12/22",
+    "contact": "Jarvis Recruitment Group"
+  },
+  {
+    "counterId": 39,
+    "compName": "PAIGE LLC",
+    "place": "Remote",
+    "position": "Junior Web Designer",
+    "estSalary": "$60k-$65k",
+    "stat": "Applied",
+    "dateApplied": "7/12/22",
+    "contact": "PAIGE LLC"
+  },
+  {
+    "counterId": 40,
+    "compName": "V-Soft Consulting Group, Inc.",
+    "place": "Remote",
+    "position": "Front End Developer I",
+    "estSalary": "$96.5K-$122K",
+    "stat": "Applied",
+    "dateApplied": "7/12/22",
+    "contact": "V-Soft Consulting Group"
+  },
+  {
+    "counterId": 41,
+    "compName": "Emonics LLC",
+    "place": "Remote",
+    "position": "Entry Level Front End Developer",
+    "estSalary": "$64k-$105k",
+    "stat": "Applied",
+    "dateApplied": "7/12/22",
+    "contact": "Emonics"
+  },
+  {
+    "counterId": 42,
+    "compName": "Hybrid Enterprises LLC",
+    "place": "Saint Cloud, FL 34769",
+    "position": "Jr. Software Developer (Java)",
+    "estSalary": "$45k-$52k",
+    "stat": "Applied",
+    "dateApplied": "7/12/22",
+    "contact": "Hybrid Enterprises"
+  },
+  {
+    "counterId": 43,
+    "compName": "1 Point System",
+    "place": "Remote",
+    "position": "Junior Java Developer",
+    "estSalary": "$30 - $35 an hour",
+    "stat": "Applied",
+    "dateApplied": "7/12/22",
+    "contact": "1 Point System"
+  },
+  {
+    "counterId": 44,
+    "compName": "LegalZoom",
+    "place": "Remote",
+    "position": "Staff Front-End Engineer",
+    "estSalary": "$80K-$101K",
+    "stat": "Applied",
+    "dateApplied": "7/12/22",
+    "contact": "LegalZoom"
+  },
+  {
+    "counterId": 45,
+    "compName": "MedBill",
+    "place": "Remote",
+    "position": "Software Engineer",
+    "estSalary": "$60 an hour",
+    "stat": "Applied",
+    "dateApplied": "7/12/22",
+    "contact": "MedBill"
+  },
+  {
+    "counterId": 46,
+    "compName": "Emonics LLC",
+    "place": "Remote",
+    "position": "Entry Level Front End Developer",
+    "estSalary": "$64k-$105k",
+    "stat": "Applied",
+    "dateApplied": "7/12/22",
+    "contact": "Emonics LLC"
+  },
+  {
+    "counterId": 47,
+    "compName": "CyberCoders",
+    "place": "Remote",
+    "position": "Junior Front-End Software Engineer",
+    "estSalary": "$60k-$75k",
+    "stat": "Applied",
+    "dateApplied": "7/12/22",
+    "contact": "CyberCoders"
+  },
+  {
+    "counterId": 48,
+    "compName": "Nonesuch",
+    "place": "Remote",
+    "position": "Software Development",
+    "estSalary": "$20 - $40 an hour",
+    "stat": "Applied",
+    "dateApplied": "7/12/22",
+    "contact": "Nonesuch"
+  },
+  {
+    "counterId": 49,
+    "compName": "Amadeus",
+    "place": "Orlando, FL 32805",
+    "position": "Software Engineer",
+    "estSalary": "$78.5K - $99.5K",
+    "stat": "Applied",
+    "dateApplied": "7/15/22",
+    "contact": "Amadeus"
+  },
+  {
+    "counterId": 50,
+    "compName": "Confluent",
+    "place": "Remote",
+    "position": "Front-End Software Engineer",
+    "estSalary": "~$140k",
+    "stat": "Applied",
+    "dateApplied": "7/16/22",
+    "contact": "confluent.io"
+  },
+  {
+    "counterId": 51,
+    "compName": "Virtucom",
+    "place": "Remote",
+    "position": "Junior Software Developer",
+    "estSalary": "$35k-$62k",
+    "stat": "Applied",
+    "dateApplied": "7/16/22",
+    "contact": "www.virtucom.com"
+  },
+  {
+    "counterId": 52,
+    "compName": "Sylabs",
+    "place": "Remote",
+    "position": "Software Engineer",
+    "estSalary": "$81k-$87k",
+    "stat": "Applied",
+    "dateApplied": "7/16/22",
+    "contact": "sylabs.io"
+  },
+  {
+    "counterId": 53,
+    "compName": "Amazon",
+    "place": "Remote",
+    "position": "Software Development Engineer",
+    "estSalary": "$93K-$319K",
+    "stat": "Applied",
+    "dateApplied": "7/16/22",
+    "contact": "amazon.jobs"
+  },
+  {
+    "counterId": 54,
+    "compName": "FOX59",
+    "place": "Remote",
+    "position": "Software Engineer",
+    "estSalary": "$95k-$110k",
+    "stat": "Applied",
+    "dateApplied": "7/16/22",
+    "contact": "FOX59"
+  },
+  {
+    "counterId": 55,
+    "compName": "Optomi",
+    "place": "Hybrid",
+    "position": "Software Developer",
+    "estSalary": "$70-$85 /hr",
+    "stat": "Applied",
+    "dateApplied": "7/16/22",
+    "contact": "Optomi"
+  },
+  {
+    "counterId": 56,
+    "compName": " Kore.ai",
+    "place": "Orlando, FL",
+    "position": "Software Engineer",
+    "estSalary": "$89K-$131K",
+    "stat": "Applied",
+    "dateApplied": "7/16/22",
+    "contact": " Kore.ai"
+  },
+  {
+    "counterId": 57,
+    "compName": "Brooksource",
+    "place": "Remote",
+    "position": "Web Application Developer",
+    "estSalary": "$35-$40 /hr ",
+    "stat": "Applied",
+    "dateApplied": "7/16/22",
+    "contact": "Brooksource"
+  },
+  {
+    "counterId": 58,
+    "compName": "Revature",
+    "place": "Kissimmee, FL",
+    "position": "Entry Level Software Engineer",
+    "estSalary": "?",
+    "stat": "Applied",
+    "dateApplied": "7/16/22",
+    "contact": "Revature"
+  },
+  {
+    "counterId": 59,
+    "compName": "RightTalents",
+    "place": "Orlando, FL",
+    "position": "Software Engineer",
+    "estSalary": "$80.5K-$102K",
+    "stat": "Applied",
+    "dateApplied": "7/16/22",
+    "contact": "RightTalents"
+  },
+  {
+    "counterId": 60,
+    "compName": "Thriveworks",
+    "place": "Remote",
+    "position": "Software Engineer",
+    "estSalary": "$103K-$130K",
+    "stat": "Applied",
+    "dateApplied": "7/16/22",
+    "contact": "Thriveworks"
+  },
+  {
+    "counterId": 61,
+    "compName": "HonorVet Technologies",
+    "place": "Orlando, FL 32825",
+    "position": "Software Engineer",
+    "estSalary": "$55-$75 /hour",
+    "stat": "Rejected",
+    "dateApplied": "7/16/22",
+    "contact": "HonorVet Technologies"
+  },
+  {
+    "counterId": 62,
+    "compName": "Shock Stream LLC",
+    "place": "Remote",
+    "position": "Software Engineer",
+    "estSalary": "$120k-$160k",
+    "stat": "Applied",
+    "dateApplied": "7/16/22",
+    "contact": "Shock Stream"
+  },
+  {
+    "counterId": 63,
+    "compName": "Acorn Stairlifts",
+    "place": "Orlando, FL 32809",
+    "position": "Front End Website Developer",
+    "estSalary": "$45k-$60k",
+    "stat": "Applied",
+    "dateApplied": "7/17/22",
+    "contact": "acornstairlifts.com"
+  },
+  {
+    "counterId": 64,
+    "compName": "CNO Financial Group, Inc",
+    "place": "Remote",
+    "position": "Frontend Software Developer",
+    "estSalary": "?",
+    "stat": "Applied",
+    "dateApplied": "7/17/22",
+    "contact": "CNO Financial Group"
+  },
+  {
+    "counterId": 65,
+    "compName": "test",
+    "place": "test",
+    "position": "test",
+    "estSalary": "10000",
+    "stat": "test",
+    "dateApplied": "test",
+    "contact": "dsadadasd",
+    "img": "joseplasencia-square.png"
+  }
+]
