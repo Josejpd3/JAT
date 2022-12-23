@@ -106,3 +106,7 @@ html, body {
   cursor: pointer;
 }
 
+.titleBarBtns > .topBtn:hover {
+  background-color: #272C36;
+}
+
