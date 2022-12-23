@@ -121,3 +121,8 @@ html, body {
 .titleBarBtns > .maximizeBtn {
   background-image: url("./icons/maximizeBtn.png");
 }
+
+.titleBarBtns > .restoreBtn {
+  background-image: url("./icons/restoreBtn.png");
+}
+
