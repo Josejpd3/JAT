@@ -126,3 +126,6 @@ html, body {
   background-image: url("./icons/restoreBtn.png");
 }
 
+.titleBarBtns > .closeBtn {
+  background-image: url("./icons/closeBtn.png");
+}
