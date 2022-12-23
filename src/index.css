@@ -114,3 +114,7 @@ html, body {
   background-color: #4F9FEE;
 }
 
+.titleBarBtns > .minimizeBtn {
+  background-image: url("./icons/minimizeBtn.png");
+}
+
