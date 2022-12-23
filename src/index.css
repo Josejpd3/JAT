@@ -77,3 +77,13 @@ html, body {
   height: 30px;
 }
 
+.titleBar > .title {
+  margin-left: 10px;
+  width: 100%;
+  line-height: 30px;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  -webkit-app-region: drag;
+
+}
+
