@@ -65,3 +65,9 @@ html, body {
 .titleBar > .toggleButton:hover {
   background-color: #272C36;
 }
+
+.titleBar > .toggleButton:active {
+  background-color: #4F9FEE;
+}
+
+
