@@ -93,3 +93,16 @@ html, body {
   width: 120px;
   height: 40px;
 }
+
+.titleBarBtns > .topBtn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
