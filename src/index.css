@@ -40,3 +40,9 @@ html, body {
 
 
 
+.topBar > .titleBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
