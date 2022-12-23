@@ -46,3 +46,18 @@ html, body {
   align-items: center;
   width: 100%;
 }
+
+.titleBar > .toggleButton {
+  width: 40px;
+  height: 30px;
+  
+  margin: 5px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  background-image: url("./icons/menu.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.2s;
+  cursor: pointer;
+}
