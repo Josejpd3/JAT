@@ -110,3 +110,7 @@ html, body {
   background-color: #272C36;
 }
 
+.titleBarBtns > .topBtn:active {
+  background-color: #4F9FEE;
+}
+
