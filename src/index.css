@@ -227,3 +227,9 @@ table tr:hover {
 table th {
   border: 1px solid #343B48;
 }
+
+table .examples {
+  user-select: none;
+  -webkit-user-select: none;
+  border: 1px solid #343B48;
+}
