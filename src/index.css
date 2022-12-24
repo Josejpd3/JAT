@@ -190,3 +190,26 @@ html, body {
   text-align: center;
   border: 1px solid #343B48;
 }
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(56, 55, 55); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1B1D23;
+  border-radius: 10px;
+}
+
+
+
