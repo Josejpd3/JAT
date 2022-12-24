@@ -175,3 +175,10 @@ html, body {
   -webkit-box-pack:start;
   display: -webkit-box;
 }
+
+#jobBtnContainer {
+  margin-top: 83px;
+ display: flex;
+ flex-direction: column;
+}
+
