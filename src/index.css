@@ -224,3 +224,6 @@ table tr:hover {
   transition: 0.5s;
 }
 
+table th {
+  border: 1px solid #343B48;
+}
