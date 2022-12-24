@@ -78,6 +78,15 @@ ipc.on('closeApp', ()=> {
 
 const createModal = () => {
 
+  const modalWindow = new BrowserWindow({
+    width: 800,
+    height: 600,
+    modal: true,  // Set the modal option to true
+  // Set the parent option to the main window
+    webPreferences: {
+      nodeIntegration: true
+    }
+  });
 
 }
 app.on('ready', createWindow);
