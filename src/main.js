@@ -87,6 +87,7 @@ const createModal = () => {
       nodeIntegration: true
     }
   });
+  modalWindow.loadFile(`src/views/selectedJob/selectedJob.html`)
 
 }
 app.on('ready', createWindow);
