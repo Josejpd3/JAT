@@ -182,3 +182,11 @@ html, body {
  flex-direction: column;
 }
 
+.jobBtns {
+  height: 80px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-size: 12px;
+  text-align: center;
+  border: 1px solid #343B48;
+}
