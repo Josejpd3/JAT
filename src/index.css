@@ -160,3 +160,9 @@ html, body {
   padding: 10px;
   width: 160px;
 }
+
+.contentArea > .leftMenu > .sidebarBTNS:hover {
+  background-color: #C850F2;
+  color: black;
+  transition: 0.3s;
+}
