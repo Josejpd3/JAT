@@ -6,7 +6,7 @@
   "main": ".webpack/main",
   "scripts": {
     "server": "nodemon src/server.js",
-    "start": "concurrently \"electron-forge start\" \"node src/server.js\"",
+    "start": "concurrently \"electron-forge start\" \"nodemon src/server.js\"",
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
