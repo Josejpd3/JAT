@@ -76,6 +76,10 @@ ipc.on('closeApp', ()=> {
 
 }
 
+const createModal = () => {
+
+
+}
 app.on('ready', createWindow);
 
 
