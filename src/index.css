@@ -213,3 +213,8 @@ html, body {
 
 
 
+table tr{
+  border: 1px solid #343B48;
+  position: relative;
+  height: 80px;
+}
