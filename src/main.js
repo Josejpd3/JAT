@@ -90,6 +90,12 @@ const createModal = () => {
   modalWindow.loadFile(`src/views/selectedJob/selectedJob.html`)
 
 }
+
+ipc.on('open-modal-window', ()=> {
+  createModal()
+});
+
+
 app.on('ready', createWindow);
 
 
