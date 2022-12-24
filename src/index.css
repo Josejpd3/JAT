@@ -218,3 +218,9 @@ table tr{
   position: relative;
   height: 80px;
 }
+
+table tr:hover {
+  background-color: #1B1D23;
+  transition: 0.5s;
+}
+
