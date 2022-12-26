@@ -358,6 +358,9 @@ html, body {
   text-align: center;
 }
 
+.job-data .status {
+  margin-left: 20px;
+  
 }
 
 table tr:hover {
