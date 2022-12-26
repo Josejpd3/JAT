@@ -229,9 +229,10 @@ html, body {
 }
 
 #jobBtnContainer {
-  margin-top: 83px;
+  margin-top: 90px;
  display: flex;
  flex-direction: column;
+ margin-left: 20px;
 }
 
 .jobBtns {
