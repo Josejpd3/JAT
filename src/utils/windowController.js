@@ -3,6 +3,7 @@ const mySidebar = document.getElementById('mySidebar')
 
 
 
+let isLeftMenuActive = true
 
 // Minimize button
 minimizeBtn.addEventListener('click', ()=> {
