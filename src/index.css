@@ -353,6 +353,11 @@ html, body {
   justify-content: center;
 }
 
+.status {
+  width: 60px;
+  text-align: center;
+}
+
 }
 
 table tr:hover {
