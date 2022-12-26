@@ -84,7 +84,9 @@ const createModal = () => {
     modal: true,  // Set the modal option to true
   // Set the parent option to the main window
     webPreferences: {
-      nodeIntegration: true
+      nodeIntegration: true,
+      devTools: true,
+      contextIsolation: false
     }
   });
   modalWindow.loadFile(`src/views/selectedJob/selectedJob.html`)
