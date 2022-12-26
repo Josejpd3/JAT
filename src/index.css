@@ -1,4 +1,6 @@
-
+/*|----------------------------------|*/
+/*|                                  |*/    
+/*             Main Styling           */
 
 html, body {
   margin: 0;
@@ -9,8 +11,6 @@ html, body {
   height: 100%;
   
 
-  background-color: rgba(46, 44, 44, 0.611);
-  backdrop-filter: blur(10px);
 }
 
 
