@@ -387,8 +387,12 @@ html, body {
   text-align: center;
 }
 
-table .examples {
-  user-select: none;
-  -webkit-user-select: none;
-  border: 1px solid #343B48;
+.date {
+  width: 70px;
+  text-align: center;
+}
+
+
+/*|                                  |*/
+/*------------------------------------*/
 }
