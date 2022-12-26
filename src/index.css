@@ -248,6 +248,11 @@ html, body {
   background-color: rgba(16, 18, 27, 0.585);
 }
 
+.jobBtns:hover {
+  color: #dcdee2;
+  border: 1px solid #dcdee2;
+  cursor: pointer;
+}
 
 
 
