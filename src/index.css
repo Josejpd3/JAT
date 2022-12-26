@@ -372,6 +372,9 @@ html, body {
   margin-left: 20px;
 }
 
+.location {
+  width: 150px;
+  text-align: center;
 }
 
 table th {
