@@ -346,6 +346,13 @@ html, body {
   cursor: crosshair;
 }
 
+.job-data > * {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 }
 
 table tr:hover {
