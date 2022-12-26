@@ -403,4 +403,13 @@ html, body {
 /*|                                  |*/
 /*          Status Styling            */
 
+.status.applied{
+  min-width: 20px;
+  min-height: 20px;
+  max-width: 20px;
+  max-height: 20px;
+  border: 4px solid #2cdd8a;
+  border-radius: 20px;
+}
+
 }
