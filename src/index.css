@@ -236,12 +236,16 @@ html, body {
 }
 
 .jobBtns {
-  height: 80px;
-  margin-top: 1px;
-  margin-bottom: 1px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  height: 42px;
+  width: 42px;
+  border-radius: 70px;
   font-size: 12px;
   text-align: center;
   border: 1px solid #343B48;
+  color: #949AA7;
+  background-color: rgba(16, 18, 27, 0.585);
 }
 
 
