@@ -377,8 +377,11 @@ html, body {
   text-align: center;
 }
 
-table th {
-  border: 1px solid #343B48;
+.position {
+  width: 200px;
+  text-align: center;
+}
+
 }
 
 table .examples {
