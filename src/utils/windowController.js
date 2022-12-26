@@ -5,3 +5,8 @@ minimizeBtn.addEventListener('click', ()=> {
     ipc.send('minimizeApp')
 })
 
+// Maximize/Restore button
+maxResBtn.addEventListener('click', ()=> {
+    ipc.send('maximizeRestoreApp')
+})
+
