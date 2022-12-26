@@ -58,6 +58,7 @@ html, body {
   width: 100%;
 }
 
+
 .titleBar > .toggleButton {
   width: 40px;
   height: 30px;
@@ -97,6 +98,22 @@ html, body {
   -webkit-app-region: drag;
 
 }
+
+
+/*|                                  |*/
+/*------------------------------------*/
+
+
+
+                /**/
+
+
+
+/*|----------------------------------|*/
+/*|                                  |*/
+/*        Top bar BTNS Styling        */
+
+
 
 .topBar > .titleBarBtns {
   display: flex;
