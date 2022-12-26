@@ -90,6 +90,7 @@ const createModal = () => {
     }
   });
   modalWindow.loadFile(`src/views/selectedJob/selectedJob.html`)
+  modalWindow.webContents.openDevTools();
 
 }
 
