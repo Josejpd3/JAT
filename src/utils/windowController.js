@@ -1,4 +1,8 @@
 const { BrowserWindow } = require('electron/main')
+const mySidebar = document.getElementById('mySidebar')
+
+
+
 
 // Minimize button
 minimizeBtn.addEventListener('click', ()=> {
