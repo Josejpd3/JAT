@@ -382,6 +382,9 @@ html, body {
   text-align: center;
 }
 
+.salary {
+  width: 200px;
+  text-align: center;
 }
 
 table .examples {
