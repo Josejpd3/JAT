@@ -24,6 +24,8 @@ html, body {
   border: 1px solid #343B48;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  border-radius: 12px;
+  background-color: rgba(16, 18, 27, 0.863);
 }
 
 .mainApp > .topBar {
