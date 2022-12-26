@@ -412,4 +412,10 @@ html, body {
   border-radius: 20px;
 }
 
+.status.interview {
+  width: 20px;
+  height: 20px;
+  border: 4px solid #2c35dd;
+  border-radius: 20px;
+}
 }
