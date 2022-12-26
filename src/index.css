@@ -363,9 +363,15 @@ html, body {
   
 }
 
-table tr:hover {
-  background-color: #1B1D23;
-  transition: 0.5s;
+.compName {
+  width: 200px;
+  text-align: center;
+}
+
+.job-data .compName {
+  margin-left: 20px;
+}
+
 }
 
 table th {
