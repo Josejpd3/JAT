@@ -28,4 +28,8 @@ saveJob.addEventListener("click", function(){
     function finished(err) {
         console.log("finished")
     }
+    const source = fs.createReadStream(file.path)
+    const destinationStream = fs.createWriteStream(destination)
+    source.pipe(destinationStream)
+
 })
