@@ -14,9 +14,17 @@ fetch(__dirname + "/data/jobs.json")
     const container = document.getElementById('jobBtnContainer');
 
     let out = "";
+    
+    function compareNumbers(a, b) {
+        return b.counterId - a.counterId;
+    }
 
-    // Loop through jobs and build out each job row data depending on status
-    for(let job of jobs) {
+    // Sort json by it's id (descending(descending) or ascending(jobs))
+    const descending = jobs.sort(compareNumbers);
+
+
+// Loop through jobs and build out each job row data depending on status
+    for(let job of descending) {
     if(job.stat == "Applied") {
                 out += `
             <div class="job-data" id="${job.counterId}">
