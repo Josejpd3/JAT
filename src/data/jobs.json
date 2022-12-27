@@ -7,7 +7,8 @@
     "estSalary": "30,000",
     "stat": "Applied",
     "dateApplied": "6/23/22",
-    "contact": "klk@klk.com"
+    "contact": "klk@klk.com",
+    "img": ""
   },
   {
     "counterId": 1,
@@ -17,7 +18,8 @@
     "estSalary": "$62k-$100k",
     "stat": "Applied",
     "dateApplied": "7/10/22",
-    "contact": "psw-corp.com"
+    "contact": "psw-corp.com",
+    "img": ""
   },
   {
     "counterId": 2,
@@ -27,7 +29,8 @@
     "estSalary": "$64.3K-$81.5K",
     "stat": "Applied",
     "dateApplied": "7/10/22",
-    "contact": "hooray.agency"
+    "contact": "hooray.agency",
+    "img": ""
   },
   {
     "counterId": 3,
@@ -37,7 +40,8 @@
     "estSalary": "$82.6K-$105K",
     "stat": "Applied",
     "dateApplied": "7/10/22",
-    "contact": "resultstack.com"
+    "contact": "resultstack.com",
+    "img": ""
   },
   {
     "counterId": 4,
@@ -47,7 +51,8 @@
     "estSalary": "$50,000-$65,000",
     "stat": "Applied",
     "dateApplied": "7/10/22",
-    "contact": "bibletechs.org"
+    "contact": "bibletechs.org",
+    "img": ""
   },
   {
     "counterId": 5,
@@ -57,7 +62,8 @@
     "estSalary": "$50K - $104K",
     "stat": "Applied",
     "dateApplied": "7/10/22",
-    "contact": "vaco.com"
+    "contact": "vaco.com",
+    "img": ""
   },
   {
     "counterId": 6,
@@ -67,7 +73,8 @@
     "estSalary": "$90k-$130k",
     "stat": "Applied",
     "dateApplied": "7/10/22",
-    "contact": "indeed.com"
+    "contact": "indeed.com",
+    "img": ""
   },
   {
     "counterId": 7,
@@ -77,7 +84,8 @@
     "estSalary": "$78K-$98.8K",
     "stat": "Applied",
     "dateApplied": "7/10/22",
-    "contact": "neboagency.com"
+    "contact": "neboagency.com",
+    "img": ""
   },
   {
     "counterId": 8,
@@ -87,7 +95,8 @@
     "estSalary": "$90,000 - ?",
     "stat": "Applied",
     "dateApplied": "7/10/22",
-    "contact": "julesconsulting.com"
+    "contact": "julesconsulting.com",
+    "img": ""
   },
   {
     "counterId": 9,
@@ -97,7 +106,8 @@
     "estSalary": "$50k-?",
     "stat": "Applied",
     "dateApplied": "7/10/22",
-    "contact": "thoughtprocessinteractive.com"
+    "contact": "thoughtprocessinteractive.com",
+    "img": ""
   },
   {
     "counterId": 10,
@@ -107,7 +117,8 @@
     "estSalary": "$70 - $80 an hour",
     "stat": "Applied",
     "dateApplied": "7/10/22",
-    "contact": ""
+    "contact": "",
+    "img": ""
   },
   {
     "counterId": 11,
@@ -117,7 +128,8 @@
     "estSalary": "$81.1K-$103K",
     "stat": "Applied",
     "dateApplied": "7/10/22",
-    "contact": "irongalaxystudios.com"
+    "contact": "irongalaxystudios.com",
+    "img": ""
   },
   {
     "counterId": 12,
@@ -127,7 +139,8 @@
     "estSalary": "$105k-$125k",
     "stat": "Applied",
     "dateApplied": "7/10/22",
-    "contact": "averoinc.com"
+    "contact": "averoinc.com",
+    "img": ""
   },
   {
     "counterId": 13,
@@ -137,7 +150,8 @@
     "estSalary": "$80-$90 an hour",
     "stat": "Rejected",
     "dateApplied": "7/10/22",
-    "contact": "datrose"
+    "contact": "datrose",
+    "img": ""
   },
   {
     "counterId": 14,
@@ -147,7 +161,8 @@
     "estSalary": "$35k-$70k",
     "stat": "Applied",
     "dateApplied": "7/11/22",
-    "contact": "clarity-ventures.com"
+    "contact": "clarity-ventures.com",
+    "img": ""
   },
   {
     "counterId": 15,
@@ -157,7 +172,8 @@
     "estSalary": "$90.5K-$115K",
     "stat": "Applied",
     "dateApplied": "7/11/22",
-    "contact": ""
+    "contact": "",
+    "img": ""
   },
   {
     "counterId": 16,
@@ -167,7 +183,8 @@
     "estSalary": "$100K",
     "stat": "Applied",
     "dateApplied": "7/11/22",
-    "contact": "plansource"
+    "contact": "plansource",
+    "img": ""
   },
   {
     "counterId": 17,
@@ -177,7 +194,8 @@
     "estSalary": "$80k-$125k",
     "stat": "Applied",
     "dateApplied": "7/11/22",
-    "contact": "infinity-software.com"
+    "contact": "infinity-software.com",
+    "img": ""
   },
   {
     "counterId": 18,
@@ -187,7 +205,8 @@
     "estSalary": "$60k",
     "stat": "Rejected",
     "dateApplied": "7/11/22",
-    "contact": "Itlize Global"
+    "contact": "Itlize Global",
+    "img": ""
   },
   {
     "counterId": 19,
@@ -197,7 +216,8 @@
     "estSalary": "$80.5K-$102K",
     "stat": "Applied",
     "dateApplied": "7/11/22",
-    "contact": "RubensteinTech"
+    "contact": "RubensteinTech",
+    "img": ""
   },
   {
     "counterId": 20,
@@ -207,7 +227,8 @@
     "estSalary": "$25 - $30 /hr",
     "stat": "Applied",
     "dateApplied": "7/11/22",
-    "contact": "Baanyan Software Services"
+    "contact": "Baanyan Software Services",
+    "img": ""
   },
   {
     "counterId": 21,
@@ -217,7 +238,8 @@
     "estSalary": "$90k- $120k",
     "stat": "Rejected",
     "dateApplied": "7/11/22",
-    "contact": "Jarvis Recruitment Group"
+    "contact": "Jarvis Recruitment Group",
+    "img": ""
   },
   {
     "counterId": 22,
@@ -227,7 +249,8 @@
     "estSalary": "$50k-$130k",
     "stat": "Applied",
     "dateApplied": "7/11/22",
-    "contact": "The Home Depot"
+    "contact": "The Home Depot",
+    "img": ""
   },
   {
     "counterId": 23,
@@ -237,7 +260,8 @@
     "estSalary": "$48K-$103K",
     "stat": "Applied",
     "dateApplied": "7/11/22",
-    "contact": "cradlepoint"
+    "contact": "cradlepoint",
+    "img": ""
   },
   {
     "counterId": 24,
@@ -247,7 +271,8 @@
     "estSalary": "$98K-$108K",
     "stat": "Applied",
     "dateApplied": "7/11/22",
-    "contact": "Expedock"
+    "contact": "Expedock",
+    "img": ""
   },
   {
     "counterId": 25,
@@ -257,7 +282,8 @@
     "estSalary": "$60K - $90K",
     "stat": "Applied",
     "dateApplied": "7/11/22",
-    "contact": "Wolfjaw Studios"
+    "contact": "Wolfjaw Studios",
+    "img": ""
   },
   {
     "counterId": 26,
@@ -267,7 +293,8 @@
     "estSalary": "$90K - $120K",
     "stat": "Applied",
     "dateApplied": "7/11/22",
-    "contact": "Assemble Inc."
+    "contact": "Assemble Inc.",
+    "img": ""
   },
   {
     "counterId": 27,
@@ -277,7 +304,8 @@
     "estSalary": "?",
     "stat": "Applied",
     "dateApplied": "7/11/22",
-    "contact": "high5"
+    "contact": "high5",
+    "img": ""
   },
   {
     "counterId": 28,
@@ -287,7 +315,8 @@
     "estSalary": "$100K-$130K",
     "stat": "Applied",
     "dateApplied": "7/12/22",
-    "contact": "Jarvis Recruitment Group"
+    "contact": "Jarvis Recruitment Group",
+    "img": ""
   },
   {
     "counterId": 29,
@@ -297,7 +326,8 @@
     "estSalary": "$60K-$65K ",
     "stat": "Applied",
     "dateApplied": "7/12/22",
-    "contact": "PAIGE"
+    "contact": "PAIGE",
+    "img": ""
   },
   {
     "counterId": 30,
@@ -307,7 +337,8 @@
     "estSalary": "$57K-$105K",
     "stat": "Applied",
     "dateApplied": "7/12/22",
-    "contact": "V-Soft Consulting Group"
+    "contact": "V-Soft Consulting Group",
+    "img": ""
   },
   {
     "counterId": 31,
@@ -317,7 +348,8 @@
     "estSalary": "$64K - $105K",
     "stat": "Applied",
     "dateApplied": "7/12/22",
-    "contact": "Emonics"
+    "contact": "Emonics",
+    "img": ""
   },
   {
     "counterId": 32,
@@ -327,7 +359,8 @@
     "estSalary": "$86K - $109K",
     "stat": "Applied",
     "dateApplied": "7/11/22",
-    "contact": "Therigy"
+    "contact": "Therigy",
+    "img": ""
   },
   {
     "counterId": 33,
@@ -337,7 +370,8 @@
     "estSalary": "$85k",
     "stat": "Applied",
     "dateApplied": "7/11/22",
-    "contact": "Electronic Caregiver"
+    "contact": "Electronic Caregiver",
+    "img": ""
   },
   {
     "counterId": 34,
@@ -347,7 +381,8 @@
     "estSalary": "$98k-$107k",
     "stat": "Applied",
     "dateApplied": "7/12/22",
-    "contact": "Expedock"
+    "contact": "Expedock",
+    "img": ""
   },
   {
     "counterId": 35,
@@ -357,7 +392,8 @@
     "estSalary": "$60k-$90k",
     "stat": "Applied",
     "dateApplied": "Applied",
-    "contact": "Wolfjaw Studios"
+    "contact": "Wolfjaw Studios",
+    "img": ""
   },
   {
     "counterId": 36,
@@ -367,7 +403,8 @@
     "estSalary": "$90k-$120k",
     "stat": "Applied",
     "dateApplied": "Assemble Inc.",
-    "contact": "7/11/22"
+    "contact": "7/11/22",
+    "img": ""
   },
   {
     "counterId": 37,
@@ -377,7 +414,8 @@
     "estSalary": "$87.4K-$111K",
     "stat": "Applied",
     "dateApplied": "7/11/22",
-    "contact": "High5"
+    "contact": "High5",
+    "img": ""
   },
   {
     "counterId": 38,
@@ -387,7 +425,8 @@
     "estSalary": "$100k-$130k",
     "stat": "Applied",
     "dateApplied": "7/12/22",
-    "contact": "Jarvis Recruitment Group"
+    "contact": "Jarvis Recruitment Group",
+    "img": ""
   },
   {
     "counterId": 39,
@@ -397,7 +436,8 @@
     "estSalary": "$60k-$65k",
     "stat": "Applied",
     "dateApplied": "7/12/22",
-    "contact": "PAIGE LLC"
+    "contact": "PAIGE LLC",
+    "img": ""
   },
   {
     "counterId": 40,
@@ -407,7 +447,8 @@
     "estSalary": "$96.5K-$122K",
     "stat": "Applied",
     "dateApplied": "7/12/22",
-    "contact": "V-Soft Consulting Group"
+    "contact": "V-Soft Consulting Group",
+    "img": ""
   },
   {
     "counterId": 41,
@@ -417,7 +458,8 @@
     "estSalary": "$64k-$105k",
     "stat": "Applied",
     "dateApplied": "7/12/22",
-    "contact": "Emonics"
+    "contact": "Emonics",
+    "img": ""
   },
   {
     "counterId": 42,
@@ -427,7 +469,8 @@
     "estSalary": "$45k-$52k",
     "stat": "Applied",
     "dateApplied": "7/12/22",
-    "contact": "Hybrid Enterprises"
+    "contact": "Hybrid Enterprises",
+    "img": ""
   },
   {
     "counterId": 43,
@@ -437,7 +480,8 @@
     "estSalary": "$30 - $35 an hour",
     "stat": "Applied",
     "dateApplied": "7/12/22",
-    "contact": "1 Point System"
+    "contact": "1 Point System",
+    "img": ""
   },
   {
     "counterId": 44,
@@ -447,7 +491,8 @@
     "estSalary": "$80K-$101K",
     "stat": "Applied",
     "dateApplied": "7/12/22",
-    "contact": "LegalZoom"
+    "contact": "LegalZoom",
+    "img": ""
   },
   {
     "counterId": 45,
@@ -457,7 +502,8 @@
     "estSalary": "$60 an hour",
     "stat": "Applied",
     "dateApplied": "7/12/22",
-    "contact": "MedBill"
+    "contact": "MedBill",
+    "img": ""
   },
   {
     "counterId": 46,
@@ -467,7 +513,8 @@
     "estSalary": "$64k-$105k",
     "stat": "Applied",
     "dateApplied": "7/12/22",
-    "contact": "Emonics LLC"
+    "contact": "Emonics LLC",
+    "img": ""
   },
   {
     "counterId": 47,
@@ -477,7 +524,8 @@
     "estSalary": "$60k-$75k",
     "stat": "Applied",
     "dateApplied": "7/12/22",
-    "contact": "CyberCoders"
+    "contact": "CyberCoders",
+    "img": ""
   },
   {
     "counterId": 48,
@@ -487,7 +535,8 @@
     "estSalary": "$20 - $40 an hour",
     "stat": "Applied",
     "dateApplied": "7/12/22",
-    "contact": "Nonesuch"
+    "contact": "Nonesuch",
+    "img": ""
   },
   {
     "counterId": 49,
@@ -497,7 +546,8 @@
     "estSalary": "$78.5K - $99.5K",
     "stat": "Applied",
     "dateApplied": "7/15/22",
-    "contact": "Amadeus"
+    "contact": "Amadeus",
+    "img": ""
   },
   {
     "counterId": 50,
@@ -507,7 +557,8 @@
     "estSalary": "~$140k",
     "stat": "Applied",
     "dateApplied": "7/16/22",
-    "contact": "confluent.io"
+    "contact": "confluent.io",
+    "img": ""
   },
   {
     "counterId": 51,
@@ -517,7 +568,8 @@
     "estSalary": "$35k-$62k",
     "stat": "Applied",
     "dateApplied": "7/16/22",
-    "contact": "www.virtucom.com"
+    "contact": "www.virtucom.com",
+    "img": ""
   },
   {
     "counterId": 52,
@@ -527,7 +579,8 @@
     "estSalary": "$81k-$87k",
     "stat": "Applied",
     "dateApplied": "7/16/22",
-    "contact": "sylabs.io"
+    "contact": "sylabs.io",
+    "img": ""
   },
   {
     "counterId": 53,
@@ -537,7 +590,8 @@
     "estSalary": "$93K-$319K",
     "stat": "Applied",
     "dateApplied": "7/16/22",
-    "contact": "amazon.jobs"
+    "contact": "amazon.jobs",
+    "img": ""
   },
   {
     "counterId": 54,
@@ -547,7 +601,8 @@
     "estSalary": "$95k-$110k",
     "stat": "Applied",
     "dateApplied": "7/16/22",
-    "contact": "FOX59"
+    "contact": "FOX59",
+    "img": ""
   },
   {
     "counterId": 55,
@@ -557,7 +612,8 @@
     "estSalary": "$70-$85 /hr",
     "stat": "Applied",
     "dateApplied": "7/16/22",
-    "contact": "Optomi"
+    "contact": "Optomi",
+    "img": ""
   },
   {
     "counterId": 56,
@@ -567,7 +623,8 @@
     "estSalary": "$89K-$131K",
     "stat": "Applied",
     "dateApplied": "7/16/22",
-    "contact": " Kore.ai"
+    "contact": " Kore.ai",
+    "img": ""
   },
   {
     "counterId": 57,
@@ -577,7 +634,8 @@
     "estSalary": "$35-$40 /hr ",
     "stat": "Applied",
     "dateApplied": "7/16/22",
-    "contact": "Brooksource"
+    "contact": "Brooksource",
+    "img": ""
   },
   {
     "counterId": 58,
@@ -587,7 +645,8 @@
     "estSalary": "?",
     "stat": "Applied",
     "dateApplied": "7/16/22",
-    "contact": "Revature"
+    "contact": "Revature",
+    "img": ""
   },
   {
     "counterId": 59,
@@ -597,7 +656,8 @@
     "estSalary": "$80.5K-$102K",
     "stat": "Applied",
     "dateApplied": "7/16/22",
-    "contact": "RightTalents"
+    "contact": "RightTalents",
+    "img": ""
   },
   {
     "counterId": 60,
@@ -607,7 +667,8 @@
     "estSalary": "$103K-$130K",
     "stat": "Applied",
     "dateApplied": "7/16/22",
-    "contact": "Thriveworks"
+    "contact": "Thriveworks",
+    "img": ""
   },
   {
     "counterId": 61,
@@ -617,7 +678,8 @@
     "estSalary": "$55-$75 /hour",
     "stat": "Rejected",
     "dateApplied": "7/16/22",
-    "contact": "HonorVet Technologies"
+    "contact": "HonorVet Technologies",
+    "img": ""
   },
   {
     "counterId": 62,
@@ -627,7 +689,8 @@
     "estSalary": "$120k-$160k",
     "stat": "Applied",
     "dateApplied": "7/16/22",
-    "contact": "Shock Stream"
+    "contact": "Shock Stream",
+    "img": ""
   },
   {
     "counterId": 63,
@@ -637,7 +700,8 @@
     "estSalary": "$45k-$60k",
     "stat": "Applied",
     "dateApplied": "7/17/22",
-    "contact": "acornstairlifts.com"
+    "contact": "acornstairlifts.com",
+    "img": ""
   },
   {
     "counterId": 64,
@@ -647,7 +711,8 @@
     "estSalary": "?",
     "stat": "Applied",
     "dateApplied": "7/17/22",
-    "contact": "CNO Financial Group"
+    "contact": "CNO Financial Group",
+    "img": ""
   },
   {
     "counterId": 65,
@@ -658,6 +723,6 @@
     "stat": "test",
     "dateApplied": "test",
     "contact": "dsadadasd",
-    "img": "joseplasencia-square.png"
+    "img": ""
   }
 ]
