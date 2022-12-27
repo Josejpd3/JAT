@@ -18,4 +18,5 @@ jsonText = document.getElementById('jsontext')
 
 saveJob.addEventListener("click", function(){
     const file = fileInput.files[0]
+    const savePath = "C:/Users/14072/Desktop/Projects/REPOS/Job-Application-Tracker-v2/src/data/jobs.json";
 })
