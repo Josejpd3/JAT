@@ -4,3 +4,14 @@ var jobs = JSON.parse(data);
 
 let counter = jobs.length
 
+compName = document.getElementById('compName')
+place = document.getElementById('place')
+position = document.getElementById('position')
+estSalary = document.getElementById('estSalary')
+stat = document.getElementById('stat')
+dateApplied = document.getElementById('dateApplied')
+contact = document.getElementById('contact')
+fileInput = document.getElementById('fileInput')
+
+saveJob = document.getElementById('saveJob')
+jsonText = document.getElementById('jsontext')
