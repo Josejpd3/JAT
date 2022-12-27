@@ -22,7 +22,7 @@ closeBtn.addEventListener('click', ()=> {
 })
 
 
-
+// Sidebar toggle
 showHideMenus.addEventListener('click', ()=> {
     if(!isLeftMenuActive) {
         mySidebar.style.width = '0px'
