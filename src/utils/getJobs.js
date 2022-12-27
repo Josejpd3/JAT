@@ -99,5 +99,11 @@ fetch(__dirname + "/data/jobs.json")
         // Opem modal on click
         ipc.send('open-modal-window');
     };
+    
+    // Append the button to container
+    container.appendChild(button);
+    }
+
+
 
     });
