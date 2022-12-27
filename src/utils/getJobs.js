@@ -89,6 +89,10 @@ fetch(__dirname + "/data/jobs.json")
 
     // When click get the button's ID and save it -> src/data/selectedJob.json
     button.onclick = function() {
+        
+        // stringify the button's id
+        const jobId = JSON.stringify(this.id);
+
     };
 
     });
