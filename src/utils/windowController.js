@@ -1,4 +1,5 @@
-const { BrowserWindow } = require('electron/main')
+const {  ipcRenderer } = require('electron');
+const ipc = ipcRenderer;
 const mySidebar = document.getElementById('mySidebar')
 
 
