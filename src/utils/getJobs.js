@@ -79,5 +79,13 @@ fetch(__dirname + "/data/jobs.json")
     placeholder.innerHTML = out;
 
 
+    // Create edit/open button
+    var button = document.createElement('button');
+    button.type = 'button';
+    button.innerHTML = "Open";
+    button.className = "jobBtns";
+    button.id = job.counterId;
+
+
 
     });
