@@ -9,6 +9,10 @@ fetch(__dirname + "/data/jobs.json")
     return response.json();
 })
 .then(function(jobs){
+    // Select HTML elements
+    const placeholder = document.querySelector("#data-output");
+    const container = document.getElementById('jobBtnContainer');
+
 
 
 
