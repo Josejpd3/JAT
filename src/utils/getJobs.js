@@ -96,6 +96,8 @@ fetch(__dirname + "/data/jobs.json")
         // Write the jobId to the json file -> src/data/selectedJob.json
         fs.writeFileSync(__dirname + '/data/selectedJob.json', jobId)
 
+        // Opem modal on click
+        ipc.send('open-modal-window');
     };
 
     });
