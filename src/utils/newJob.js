@@ -20,4 +20,8 @@ saveJob.addEventListener("click", function(){
     const file = fileInput.files[0]
     const savePath = "C:/Users/14072/Desktop/Projects/REPOS/Job-Application-Tracker-v2/src/data/jobs.json";
     const destination = "C:/Users/14072/Desktop/Projects/REPOS/Job-Application-Tracker-v2/src/icons/" + file.name;
+    
+    jobs.push({"counterId": counter,"compName": compName.value, "place": place.value, "position": position.value, "estSalary": estSalary.value, "stat": stat.value, "dateApplied": dateApplied.value, "contact": contact.value, "img": file.name});
+    var json = JSON.stringify(jobs, null, 2);
+    
 })
