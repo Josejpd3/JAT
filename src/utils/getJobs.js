@@ -13,6 +13,21 @@ fetch(__dirname + "/data/jobs.json")
     const placeholder = document.querySelector("#data-output");
     const container = document.getElementById('jobBtnContainer');
 
+    let out = "";
+
+    // Loop through jobs and build out each job row data depending on status
+    for(let job of jobs) {
+    if(job.stat == "Applied") {
+                out += `
+            <div class="job-data" id="${job.counterId}">
+                <div class="status applied"></div>
+                <div class="compName">${job.compName}</div>
+                <div class="location">${job.place}</div>
+                <div class="position">${job.position}</div>
+                <div class="salary">${job.estSalary}</div>
+                <div class="date">${job.dateApplied}</div>
+            </div>
+        `;
 
 
 
