@@ -115,3 +115,13 @@ app.on('activate', () => {
     createWindow();
   }
 });
+
+ipc.on('refresh-windows', () => {
+  // Get a list of all open windows
+  let windows = BrowserWindow.getAllWindows();
+
+  // Refresh the web content for each window
+  windows.forEach(win => {
+    win.webContents.reload();
+  });
+});
