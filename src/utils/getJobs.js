@@ -28,7 +28,17 @@ fetch(__dirname + "/data/jobs.json")
                 <div class="date">${job.dateApplied}</div>
             </div>
         `;
-
+    } else if (job.stat == "Interview") {
+        out += `
+            <div class="job-data" id="${job.counterId}">
+                <div class="status interview"></div>
+                <div class="compName">${job.compName}</div>
+                <div class="location">${job.place}</div>
+                <div class="position">${job.position}</div>
+                <div class="salary">${job.estSalary}</div>
+                <div class="date">${job.dateApplied}</div>
+            </div>
+        `;
 
 
 
