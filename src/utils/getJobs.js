@@ -75,5 +75,9 @@ fetch(__dirname + "/data/jobs.json")
     }
 
 
+    // Place built content in the placeholder
+    placeholder.innerHTML = out;
+
+
 
     });
