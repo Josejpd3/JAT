@@ -24,4 +24,8 @@ saveJob.addEventListener("click", function(){
     jobs.push({"counterId": counter,"compName": compName.value, "place": place.value, "position": position.value, "estSalary": estSalary.value, "stat": stat.value, "dateApplied": dateApplied.value, "contact": contact.value, "img": file.name});
     var json = JSON.stringify(jobs, null, 2);
     
+    fs.writeFile(savePath, json, 'utf8', finished)
+    function finished(err) {
+        console.log("finished")
+    }
 })
