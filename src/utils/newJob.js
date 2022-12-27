@@ -15,3 +15,6 @@ fileInput = document.getElementById('fileInput')
 
 saveJob = document.getElementById('saveJob')
 jsonText = document.getElementById('jsontext')
+
+saveJob.addEventListener("click", function(){
+})
