@@ -93,6 +93,9 @@ fetch(__dirname + "/data/jobs.json")
         // stringify the button's id
         const jobId = JSON.stringify(this.id);
 
+        // Write the jobId to the json file -> src/data/selectedJob.json
+        fs.writeFileSync(__dirname + '/data/selectedJob.json', jobId)
+
     };
 
     });
