@@ -46,3 +46,6 @@ contactElement.value = selectedJob.contact;
 var openImg = document.createElement('button');
 openImg.type = 'button';
 openImg.innerHTML = "Open Job Posting";
+openImg.onclick = function() {
+    window.open(jobPostingsPath + selectedJob.img)
+}
