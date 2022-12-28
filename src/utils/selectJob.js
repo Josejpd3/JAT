@@ -52,3 +52,6 @@ openImg.onclick = function() {
 jobPostingContainer.appendChild(openImg)
 
 
+let openResume = document.createElement('button');
+openResume.type = 'button';
+openResume.innerHTML = "Open Resume";
