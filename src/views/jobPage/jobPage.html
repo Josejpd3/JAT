@@ -27,26 +27,59 @@
                 <button id="jobList" class="sidebarBTNS"><a href="../../index.html">Job List</a></button>
                 <button id="addJob" class="sidebarBTNS"><a href="jobPage.html">Add Job</a></button>
             </div>
-            <div class="contentPages">
+            <div class="contentPages" id="formContainer">
                 <form class="form">
-                    <label for="compName">Company Label</label>
-                    <input type="text" id='compName' placeholder="Enter Company Name"/><br/>
-                    <label for="place">Location</label>
-                    <input type="text" id='place' placeholder="Enter Location"/><br/>
-                    <label for="position">Position</label>
-                    <input type="text" id='position' placeholder="Enter Position"/><br/>
-                    <label for="estSalary">Salary</label>
-                    <input type="text" id='estSalary' placeholder="Enter Estimated Salary"/><br/>
-                    <label for="stat">Status</label>
-                    <input type="text" id='stat' placeholder="Enter Status"/><br/>
-                    <label for="dateApplied">Date Applied</label>
-                    <input type="text" id='dateApplied' placeholder="Enter Date Applied"/><br/>
-                    <label for="contact">Contact</label>
-                    <input type="text" id='contact' placeholder="Enter Contact"/><br/>
-                    <label for="imgInput">Job Posting</label>
-                    <input type="file" id="imgInput"><br>
-                    <label for="resumeInput">Resume</label>
-                    <input type="file" id="resumeInput"><br>
+                    <div class="inputContainer">
+                        <label for="compName">Company Name</label>
+                        <input type="text" id='compName' placeholder="Enter Company Name"/><br/>
+                    </div>
+
+                    <div class="inputContainer">
+                        <label for="place">Location</label>
+                        <input type="text" id='place' placeholder="Enter Location"/><br/>
+                    </div>
+
+                    <div class="inputContainer">
+                        <label for="position">Position</label>
+                        <input type="text" id='position' placeholder="Enter Position"/><br/>
+                    </div>
+
+                    <div class="inputContainer">
+                        <label for="estSalary">Salary</label>
+                        <input type="text" id='estSalary' placeholder="Enter Estimated Salary"/><br/>
+                    </div>
+
+                    
+                    <div class="inputContainer">
+                        <label for="dateApplied">Date Applied</label>
+                        <input type="text" id='dateApplied' placeholder="Enter Date Applied"/><br/>
+                    </div>
+                    
+                    <div class="inputContainer">
+                        <label for="contact">Contact</label>
+                        <input type="text" id='contact' placeholder="Enter Contact"/><br/>
+                    </div>
+                    
+                    <div class="inputContainer">
+                        <label for="imgInput">Job Posting</label>
+                        <input type="file" id="imgInput"><br>
+                    </div>
+                    
+                    <div class="inputContainer">
+                        <label for="resumeInput">Resume</label>
+                        <input type="file" id="resumeInput"><br>
+                    </div>
+                    
+                    <div class="inputContainer" id="statusContainer">
+                        <label for="stat">Status</label>
+                        <select id="options" style="position: relative;">
+                            <option value="Applied" id="applied">Applied</option>
+                            <option value="Interview" id="interview">Interview</option>
+                            <option value="Rejected" id="rejected">Rejected</option>
+                            <option value="Offer" id="offer">Offer</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
                     <button id="saveJob">Add Job</button>
                 </form>
             </div>
