@@ -17,3 +17,18 @@ const jobData = fs.readFileSync(jobsPath)
 const jobs = JSON.parse(jobData);
 let selectedJob = jobs[selectedJobId];
 
+
+// Selecting the every form input
+let compNameElement = document.getElementById('compName')
+let placeElement = document.getElementById('place')
+let positionElement = document.getElementById('position')
+let estSalaryElement = document.getElementById('estSalary')
+let statElement = document.getElementById('options')
+let dateAppliedElement = document.getElementById('dateApplied')
+let contactElement = document.getElementById('contact')
+let imgInputElement = document.getElementById('imgInput')
+let resumeInputElement = document.getElementById('resumeInput')
+let updateJob = document.getElementById('updateJob')
+
+const jobPostingContainer = document.getElementById('jobPostingContainer');
+const resumeContainer = document.getElementById('resumeContainer');
