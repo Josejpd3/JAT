@@ -83,6 +83,8 @@ const createModal = () => {
     height: 600,
     modal: true,  // Set the modal option to true
   // Set the parent option to the main window
+    frame: false,
+    transparent: true,
     webPreferences: {
       nodeIntegration: true,
       devTools: true,
