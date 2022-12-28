@@ -49,3 +49,6 @@ openImg.innerHTML = "Open Job Posting";
 openImg.onclick = function() {
     window.open(jobPostingsPath + selectedJob.img)
 }
+jobPostingContainer.appendChild(openImg)
+
+
