@@ -81,6 +81,8 @@ const createModal = () => {
   const modalWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    minWidth: 800,
+    minHeight: 680,
     modal: true,  // Set the modal option to true
   // Set the parent option to the main window
     frame: false,
