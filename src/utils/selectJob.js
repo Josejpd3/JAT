@@ -59,3 +59,6 @@ openResume.onclick = function() {
     window.open(resumePath + selectedJob.resume)
 }
 resumeContainer.appendChild(openResume)
+
+// Export
+export default selectedJobId;
