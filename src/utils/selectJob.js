@@ -58,3 +58,4 @@ openResume.innerHTML = "Open Resume";
 openResume.onclick = function() {
     window.open(resumePath + selectedJob.resume)
 }
+resumeContainer.appendChild(openResume)
