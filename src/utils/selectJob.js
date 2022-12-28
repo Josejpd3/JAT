@@ -32,3 +32,14 @@ let updateJob = document.getElementById('updateJob')
 
 const jobPostingContainer = document.getElementById('jobPostingContainer');
 const resumeContainer = document.getElementById('resumeContainer');
+
+
+// Giving form input values with job data
+compNameElement.value = selectedJob.compName;
+placeElement.value = selectedJob.place;
+positionElement.value = selectedJob.position;
+estSalaryElement.value = selectedJob.estSalary;
+statElement.value = selectedJob.stat;
+dateAppliedElement.value = selectedJob.dateApplied;
+contactElement.value = selectedJob.contact;
+
