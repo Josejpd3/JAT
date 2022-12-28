@@ -55,3 +55,6 @@ jobPostingContainer.appendChild(openImg)
 let openResume = document.createElement('button');
 openResume.type = 'button';
 openResume.innerHTML = "Open Resume";
+openResume.onclick = function() {
+    window.open(resumePath + selectedJob.resume)
+}
