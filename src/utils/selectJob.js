@@ -43,3 +43,6 @@ statElement.value = selectedJob.stat;
 dateAppliedElement.value = selectedJob.dateApplied;
 contactElement.value = selectedJob.contact;
 
+var openImg = document.createElement('button');
+openImg.type = 'button';
+openImg.innerHTML = "Open Job Posting";
