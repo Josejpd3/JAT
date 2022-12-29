@@ -32,6 +32,13 @@ fetch(__dirname + "/data/jobs.json")
 
 // Loop through jobs and build out each job row data depending on status
     for(let job of descending) {
+
+    // Set the target date in the past
+    var targetDate = new Date(job.dateApplied);
+
+    // Get the current date and time
+    var currentDate = new Date();
+    
     if(job.stat == "Applied") {
                 out += `
             <div class="job-data" id="${job.counterId}">
