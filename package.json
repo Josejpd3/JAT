@@ -17,6 +17,12 @@
     "name": "Jose Plasencia",
     "email": "josejpd3@gmail.com"
   },
+  "build": {
+    "appId": "josejpd3app",
+    "win": {
+      "icon": "src/logo1.png"
+    }
+  },
   "license": "MIT",
   "devDependencies": {
     "@electron-forge/cli": "^6.0.4",
