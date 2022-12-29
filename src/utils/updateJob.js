@@ -23,3 +23,6 @@ let imgInputElement = document.getElementById("imgInput");
 let resumeInputElement = document.getElementById("resumeInput");
 let updateJob = document.getElementById("updateJob");
 
+// Update Button Event Listner
+updateJob.addEventListener("click", () => {
+});
