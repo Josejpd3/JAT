@@ -29,6 +29,7 @@
     "concurrently": "^7.6.0",
     "css-loader": "^6.7.3",
     "electron": "22.0.0",
+    "electron-builder": "^23.6.0",
     "node-loader": "^2.0.0",
     "style-loader": "^3.3.1"
   },
