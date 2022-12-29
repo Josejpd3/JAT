@@ -2,7 +2,6 @@ const fs = require('fs');
 let data = fs.readFileSync(__dirname + '/data/jobs.json');
 let jobs = JSON.parse(data);
 
-
 // Get all jobs data
 fetch(__dirname + "/data/jobs.json")
 .then(function(response) {
@@ -71,7 +70,7 @@ fetch(__dirname + "/data/jobs.json")
                 <div class="location">${job.place}</div>
                 <div class="position">${job.position}</div>
                 <div class="salary">${job.estSalary}</div>
-                <div class="date">${job.dateApplied}</div>
+                <div class="date">${timeSince}</div>
             </div>
         `;
     } else if (job.stat == "Interview") {
@@ -82,7 +81,7 @@ fetch(__dirname + "/data/jobs.json")
                 <div class="location">${job.place}</div>
                 <div class="position">${job.position}</div>
                 <div class="salary">${job.estSalary}</div>
-                <div class="date">${job.dateApplied}</div>
+                <div class="date">${timeSince}</div>
             </div>
         `;
     } else if (job.stat == "Rejected") {
@@ -93,7 +92,7 @@ fetch(__dirname + "/data/jobs.json")
                 <div class="location">${job.place}</div>
                 <div class="position">${job.position}</div>
                 <div class="salary">${job.estSalary}</div>
-                <div class="date">${job.dateApplied}</div>
+                <div class="date">${timeSince}</div>
             </div>
         `;        
     } else if (job.stat == "Offer") {
@@ -104,7 +103,7 @@ fetch(__dirname + "/data/jobs.json")
                 <div class="location">${job.place}</div>
                 <div class="position">${job.position}</div>
                 <div class="salary">${job.estSalary}</div>
-                <div class="date">${job.dateApplied}</div>
+                <div class="date">${timeSince}</div>
             </div>
         `;
     } else {
@@ -115,7 +114,7 @@ fetch(__dirname + "/data/jobs.json")
                 <div class="location">${job.place}</div>
                 <div class="position">${job.position}</div>
                 <div class="salary">${job.estSalary}</div>
-                <div class="date">${job.dateApplied}</div>
+                <div class="date">${timeSince}</div>
             </div>
         `;
     }
