@@ -1,7 +1,8 @@
 const fs = require('fs')
 const path = require('path')
 
-const mainDataPath = "C:/Users/14072/Desktop/Projects/REPOS/Job-Application-Tracker-v2/src/data/";
+const currentFilePath = __dirname;
+const mainDataPath = path.join(path.dirname(path.dirname(path.dirname(currentFilePath))) + '/src/data/');
 
 const jobPostingsPath = mainDataPath + "jobPostings/";
 const resumePath = mainDataPath + "resumes/";
