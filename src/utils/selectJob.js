@@ -14,7 +14,8 @@ let selectedJobId = JSON.parse(selectedJobData);
 
 
 // Get the job data that contains the recieved counterId
-const jobsPath = mainDataPath + 'jobs.json';
+
+const jobsPath = path.join(mainDataPath + 'jobs.json');
 const jobData = fs.readFileSync(jobsPath)
 const jobs = JSON.parse(jobData);
 let selectedJob = jobs[selectedJobId];
