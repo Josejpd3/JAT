@@ -42,6 +42,10 @@ fetch(__dirname + "/data/jobs.json")
     // Calculate the time difference in milliseconds
     var timeDifference = currentDate - targetDate;
     
+    // Convert the time difference to days
+    var daysSinceTargetDate = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    let timeSince;
+
     if(job.stat == "Applied") {
                 out += `
             <div class="job-data" id="${job.counterId}">
