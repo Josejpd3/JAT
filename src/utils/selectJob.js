@@ -8,7 +8,7 @@ const jobPostingsPath = mainDataPath + "jobPostings/";
 const resumePath = mainDataPath + "resumes/";
 
 // Determine CounterId of the selected Job
-const selectedJobPath = mainDataPath + 'selectedJob.json';
+const selectedJobPath = path.join(mainDataPath + 'selectedJob.json');
 const selectedJobData = fs.readFileSync(selectedJobPath);
 let selectedJobId = JSON.parse(selectedJobData);
 
