@@ -90,7 +90,8 @@ const createModal = () => {
     webPreferences: {
       nodeIntegration: true,
       devTools: true,
-      contextIsolation: false
+      contextIsolation: false,
+      preload: path.join(__dirname,'../renderer/main_window/preload.js')
     }
   });
   modalWindow.loadFile(`src/views/selectedJob/selectedJob.html`)
