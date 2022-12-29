@@ -1,6 +1,6 @@
 {
   "name": "job-application-tracker-v2",
-  "productName": "job-application-tracker-v2",
+  "productName": "JAT",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": ".webpack/main",
