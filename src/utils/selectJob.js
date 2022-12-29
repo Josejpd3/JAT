@@ -1,4 +1,5 @@
 const fs = require('fs')
+const path = require('path')
 
 const mainDataPath = "C:/Users/14072/Desktop/Projects/REPOS/Job-Application-Tracker-v2/src/data/";
 
