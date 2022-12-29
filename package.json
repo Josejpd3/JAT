@@ -9,6 +9,7 @@
     "start": "concurrently \"electron-forge start\" \"nodemon src/server.js\"",
     "package": "electron-forge package",
     "make": "electron-forge make",
+    "build": "electron-builder build",
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\""
   },
