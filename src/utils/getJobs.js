@@ -46,6 +46,23 @@ fetch(__dirname + "/data/jobs.json")
     var daysSinceTargetDate = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
     let timeSince;
 
+    if (daysSinceTargetDate > 30) {
+        if (Math.round(daysSinceTargetDate / 30.44) > 1) {
+            timeSince = Math.round(daysSinceTargetDate / 30.44) + " Months";
+        } else {
+            timeSince = Math.round(daysSinceTargetDate / 30.44) + " Month";
+        }
+    } else if (daysSinceTargetDate <= 30) {
+        if (daysSinceTargetDate < 1) {
+            timeSince = "Today";
+        } else if (daysSinceTargetDate > 1) {
+            timeSince = daysSinceTargetDate + " Days";
+        } else {
+            timeSince = daysSinceTargetDate + " Day";
+        }
+    }
+
+
     if(job.stat == "Applied") {
                 out += `
             <div class="job-data" id="${job.counterId}">
