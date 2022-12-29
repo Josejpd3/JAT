@@ -23,6 +23,13 @@ fetch(__dirname + "/data/jobs.json")
     const descending = jobs.sort(compareNumbers);
 
 
+    let jobAmount = document.createElement("div");
+    jobAmount.innerHTML = jobs.length;
+    jobAmount.id = "jobAmount";
+    container.appendChild(jobAmount)
+
+
+
 // Loop through jobs and build out each job row data depending on status
     for(let job of descending) {
     if(job.stat == "Applied") {
