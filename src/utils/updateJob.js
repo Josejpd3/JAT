@@ -42,6 +42,16 @@ updateJob.addEventListener("click", () => {
       imgSource.pipe(imgDestinationStream);
       applicationToEdit.img = imgFile.name;
     }
+    // Save resumeFile in resumeDestination
+    if (resumeInputElement.value) {
+      const resumeFile = resumeInputElement.files[0];
+      const resumeDestination = resumePath + resumeFile.name;
+      const resumeSource = fs.createReadStream(resumeFile.path);
+      const resumeDestinationStream = fs.createWriteStream(resumeDestination);
+      resumeSource.pipe(resumeDestinationStream);
+      applicationToEdit.resume = resumeFile.name;
+    }
+
   });
   // Refresh all windows after data is updated
   ipcRenderer.send("refresh-windows");
