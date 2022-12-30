@@ -30,6 +30,8 @@ updateJob.addEventListener("click", () => {
   fs.readFile(jobsPath, "utf8", (err, data) => {
     if (err) throw err;
     
+    // Parse the JSON data
+    let applications = JSON.parse(data);
 
   });
   // Refresh all windows after data is updated
