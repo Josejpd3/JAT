@@ -61,6 +61,9 @@ updateJob.addEventListener("click", () => {
     applicationToEdit.dateApplied = dateAppliedElement.value;
     applicationToEdit.contact = contactElement.value;
 
+    // Convert the object back into a JSON string
+    data = JSON.stringify(applications, null, 2);
+
   });
   // Refresh all windows after data is updated
   ipcRenderer.send("refresh-windows");
