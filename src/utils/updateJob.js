@@ -52,6 +52,15 @@ updateJob.addEventListener("click", () => {
       applicationToEdit.resume = resumeFile.name;
     }
 
+    // Update the job application data
+    applicationToEdit.compName = compNameElement.value;
+    applicationToEdit.place = placeElement.value;
+    applicationToEdit.position = positionElement.value;
+    applicationToEdit.estSalary = estSalaryElement.value;
+    applicationToEdit.stat = statElement.value;
+    applicationToEdit.dateApplied = dateAppliedElement.value;
+    applicationToEdit.contact = contactElement.value;
+
   });
   // Refresh all windows after data is updated
   ipcRenderer.send("refresh-windows");
