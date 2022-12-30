@@ -25,4 +25,7 @@ let updateJob = document.getElementById("updateJob");
 
 // Update Button Event Listner
 updateJob.addEventListener("click", () => {
+
+  // Refresh all windows after data is updated
+  ipcRenderer.send("refresh-windows");
 });
