@@ -328,6 +328,22 @@ html, body {
   letter-spacing: 1px;
 }
 
+#jobAmount {
+  display: flex;
+  width: 42px;
+  height: 42px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+  border: 1px solid #343B48;
+  box-shadow:inset 0px 0px 0px 3px #949AA7;
+  color: #949AA7;
+  background-color: rgba(16, 18, 27, 0.585);
+  margin-bottom: 16px;
+  font-size: 16px;
+  padding-bottom: 2px;
+}
+
 .job-data {
   display: flex;
   flex-direction: row;
