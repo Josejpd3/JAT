@@ -64,6 +64,12 @@ updateJob.addEventListener("click", () => {
     // Convert the object back into a JSON string
     data = JSON.stringify(applications, null, 2);
 
+    // Write the modified JSON string to the imgFile
+    fs.writeFile(jobsPath, data, "utf8", (err) => {
+      if (err) throw err;
+
+      console.log("Application updated successfully!");
+    });
   });
   // Refresh all windows after data is updated
   ipcRenderer.send("refresh-windows");
