@@ -229,7 +229,7 @@ html, body {
 }
 
 #jobBtnContainer {
-  margin-top: 90px;
+  margin-top: 30px;
  display: flex;
  flex-direction: column;
  margin-left: 20px;
