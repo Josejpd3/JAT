@@ -26,6 +26,12 @@ let updateJob = document.getElementById("updateJob");
 // Update Button Event Listner
 updateJob.addEventListener("click", () => {
 
+  // Read jobs.json imgFile
+  fs.readFile(jobsPath, "utf8", (err, data) => {
+    if (err) throw err;
+    
+
+  });
   // Refresh all windows after data is updated
   ipcRenderer.send("refresh-windows");
 });
