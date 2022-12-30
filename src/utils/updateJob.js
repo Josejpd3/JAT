@@ -33,6 +33,15 @@ updateJob.addEventListener("click", () => {
     // Parse the JSON data
     let applications = JSON.parse(data);
 
+    // Save imgFile in imgDestination
+    if (imgInputElement.value) {
+      const imgFile = imgInputElement.files[0];
+      const imgDestination = imgPath + imgFile.name;
+      const imgSource = fs.createReadStream(imgFile.path);
+      const imgDestinationStream = fs.createWriteStream(imgDestination);
+      imgSource.pipe(imgDestinationStream);
+      applicationToEdit.img = imgFile.name;
+    }
   });
   // Refresh all windows after data is updated
   ipcRenderer.send("refresh-windows");
