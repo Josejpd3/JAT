@@ -116,3 +116,26 @@ select option:checked {
 }
 
 
+/* Options with ID */
+
+#applied {
+    background-color: #2cdd8a;
+}
+
+#interview {
+    background-color: #2c35dd;
+}
+
+#rejected {
+    background-color: #e13535;
+}
+
+#offer {
+    background-color: #dda121;
+}
+
+#other {
+    background-color: #949AA7;
+}
+
+
