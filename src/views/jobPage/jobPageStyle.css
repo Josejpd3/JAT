@@ -48,3 +48,14 @@
 }
 
 
+input {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #C850F2;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+
