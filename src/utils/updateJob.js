@@ -32,6 +32,7 @@ updateJob.addEventListener("click", () => {
     
     // Parse the JSON data
     let applications = JSON.parse(data);
+    let applicationToEdit = applications[selectedJobId]
 
     // Save imgFile in imgDestination
     if (imgInputElement.value) {
