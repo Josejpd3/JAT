@@ -144,3 +144,9 @@ select option:checked {
     transition: 0.2s;
     cursor: pointer;
 }
+#saveJob:active{
+    background-color: #1B1D23;
+    transition: 0.2;
+}
+
+
