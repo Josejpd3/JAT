@@ -94,3 +94,8 @@ select option:checked {
     position: absolute;
 }
 
+/* Classes for selected option background color */
+.Applied {
+    background-color: #2cdd8a;
+}
+
