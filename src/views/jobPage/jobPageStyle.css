@@ -27,3 +27,15 @@
     column-gap: 60px;
 }
 
+.inputContainer {
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 300px;
+}
+
