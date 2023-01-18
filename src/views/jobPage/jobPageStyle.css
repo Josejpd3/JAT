@@ -82,3 +82,15 @@ select option:checked {
 
 
 
+.form > #saveJob {
+    margin-top: 10%;
+    margin-bottom: 20px;
+    height: 6%;
+    width: 30%;
+    bottom: 0px;
+    background-color: #949AA7;
+    border: 1px solid #1B1D23;
+    border-radius: 20px;
+    position: absolute;
+}
+
