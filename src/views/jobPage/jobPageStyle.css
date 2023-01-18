@@ -71,3 +71,14 @@ input {
     border-radius: 40px;
     text-align: center;
 }
+
+select option {
+  display: block;
+}
+
+select option:checked {
+  background-color: orange;
+}
+
+
+
