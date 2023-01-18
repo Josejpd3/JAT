@@ -150,3 +150,16 @@ select option:checked {
 }
 
 
+@media screen and (max-width: 1366px) {
+  .inputContainer {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 300px;
+}
+
