@@ -1,0 +1,13 @@
+                /**/
+
+
+/*|----------------------------------|*/
+/*|                                  |*/
+/*          Form Styling              */
+
+
+#formContainer {
+    display: flex;
+    justify-content: center;
+}
+
