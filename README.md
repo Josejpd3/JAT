@@ -43,6 +43,22 @@ This is electron application is an all in one solution for keeping track of job 
 2. Install Dependencies <br>
 `cd JAT/` <br>
 `npm i`
-3. Run Application <br>
+
+## Usage 
+
+Run Application <br>
 `npm start`
+
+When first starting the application an example job application will be displayed, you are able to open, edit this application and update it with your application details. 
+![Job List image](/imgs/jate-home.jpg)
+
+### Add A New Job Application
+1. Click the menu icon in the top left.
+![Sidebar image](/imgs/jat-sidebar.jpg)
+2. Select the 'Add Job' Button
+![Sidebar image](/imgs/jat-addjob.jpg)
+4. Fill out the form with your current job application details
+5. Select a Status
+6. Press 'Add Job'
+Your Job list will be automatically updated with your new Job Application
 
