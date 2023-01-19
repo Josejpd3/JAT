@@ -30,3 +30,6 @@
 ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
 
 </div>
+
+## About
+This is electron application is an all in one solution for keeping track of job applications. You are able to store information about each job application like company name, locaton, salary, date of application, track application status, resumes submitted and screenshots of the job posting. You can also obtain total amount of applications, how long ago they were submitted and update them.
