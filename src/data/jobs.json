@@ -1,1 +1,14 @@
-
+[
+  {
+    "counterId": 0,
+    "compName": "Example Jate",
+    "place": "Remote",
+    "position": "Software Developer",
+    "estSalary": "90,000",
+    "stat": "Applied",
+    "dateApplied": "01/01/23",
+    "contact": "jate@example.com",
+    "img": "placeholder.txt",
+    "resume": "placeholder.txt"
+  }
+]
