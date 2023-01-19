@@ -38,14 +38,14 @@ saveJob.addEventListener("click", function() {
   
   if (imgInput.value) {
     jobs[counter].img = imgFile.name;
-    const imgDestination = "C:/Users/14072/Desktop/Projects/REPOS/Job-Application-Tracker-v2/src/data/jobPostings/" + imgFile.name;
+    const imgDestination = path.join(path.dirname(path.dirname(__dirname))) + '/data/jobPostings/' + imgFile.name;
     const imgSource = fs.createReadStream(imgFile.path);
     const imgDestinationStream = fs.createWriteStream(imgDestination);
     imgSource.pipe(imgDestinationStream);
   }
   if (resumeInput.value) {
     jobs[counter].resume = resumeFile.name;
-    const resumeDestination = "C:/Users/14072/Desktop/Projects/REPOS/Job-Application-Tracker-v2/src/data/resumes/" + resumeFile.name;
+    const resumeDestination = path.join(path.dirname(path.dirname(__dirname))) + '/data/resumes/' + resumeFile.name;
     const resumeSource = fs.createReadStream(resumeFile.path);
     const resumeDestinationStream = fs.createWriteStream(resumeDestination);
     resumeSource.pipe(resumeDestinationStream);
