@@ -1,5 +1,5 @@
 const fs = require('fs');
-var data = fs.readFileSync('C:/Users/14072/Desktop/Projects/REPOS/Job-Application-Tracker-v2/src/data/jobs.json');
+const path = require('path')
 var jobs = JSON.parse(data);
 
 let counter = jobs.length;
