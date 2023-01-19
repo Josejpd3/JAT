@@ -59,8 +59,6 @@ typings/
 package-lock.json
 
 # Data
-jobs.json
-selectedJob.json
 
 # Optional eslint cache
 .eslintcache
