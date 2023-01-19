@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path')
+var data = fs.readFileSync(path.join(path.dirname(path.dirname(__dirname))) + '/data/jobs.json');
 var jobs = JSON.parse(data);
 
 let counter = jobs.length;
