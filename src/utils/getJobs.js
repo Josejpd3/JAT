@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path')
 // Get all jobs data
-fetch(__dirname + "/data/jobs.json")
+fetch(path.dirname(__dirname) + "/src/data/jobs.json")
 .then(function(response) {
     return response.json();
 })
