@@ -43,12 +43,7 @@ jspm_packages/
 
 # Webpack
 .webpack/
-webpack.main.config.js
-webpack.renderer.config.js
-webpack.rules.js
 
-# Forge
-forge.config.js
 
 # Vscode
 .vscode
