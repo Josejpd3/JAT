@@ -33,3 +33,16 @@
 
 ## About
 This is electron application is an all in one solution for keeping track of job applications. You are able to store information about each job application like company name, locaton, salary, date of application, track application status, resumes submitted and screenshots of the job posting. You can also obtain total amount of applications, how long ago they were submitted and update them.
+
+## Getting Started
+
+### Installation
+
+1. Clone Repository <br>
+`git clone https://github.com/josejpd3/JAT.git`
+2. Install Dependencies <br>
+`cd JAT/` <br>
+`npm i`
+3. Run Application <br>
+`npm start`
+
