@@ -50,6 +50,22 @@ contactElement.value = selectedJob.contact;
 
 statElement.classList = statElement.value;
 
+
+
+for (let i = 0; i < selectedJob.emailLinks.length; i++) {
+    console.log(selectedJob.emailLinks[i]);
+    // openEmailLink.href = selectedJob.emailLinks[i];
+    let openEmailLink = document.createElement('button');
+    openEmailLink.type = 'button'
+    openEmailLink.innerHTML = i + 1;
+    openEmailLink.onclick = function() {
+        window.open(selectedJob.emailLinks[i])
+    }
+    emailLinkContainer.appendChild(openEmailLink)
+}
+
+
+
 var openImg = document.createElement('button');
 openImg.type = 'button';
 openImg.innerHTML = "Open Job Posting";
