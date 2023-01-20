@@ -34,6 +34,7 @@ let imgInputElement = document.getElementById('imgInput')
 let resumeInputElement = document.getElementById('resumeInput')
 let updateJob = document.getElementById('updateJob')
 
+const emailLinkContainer = document.getElementById('emailLinkContainer')
 const jobPostingContainer = document.getElementById('jobPostingContainer');
 const resumeContainer = document.getElementById('resumeContainer');
 
