@@ -58,6 +58,14 @@ saveJob.addEventListener("click", function() {
     resumeSource.pipe(resumeDestinationStream);
   }
 
+  if (coverLetterInput.value) {
+    jobs[counter].coverLetter = coverLetterFile.name;
+    const coverLetterDestination = path.join(path.dirname(path.dirname(__dirname))) + '/data/coverLetters/' + coverLetterFile.name;
+    const coverLetterSource = fs.createReadStream(coverLetterFile.path);
+    const coverLetterDestinationStream = fs.createWriteStream(coverLetterDestination);
+    coverLetterSource.pipe(coverLetterDestinationStream);
+  }
+
 
 
   var json = JSON.stringify(jobs, null, 2);
