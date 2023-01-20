@@ -15,6 +15,7 @@ contact = document.getElementById("contact");
 emailLinks = document.getElementById("emailLink")
 imgInput = document.getElementById("imgInput");
 resumeInput = document.getElementById("resumeInput");
+coverLetterInput = document.getElementById("coverLetterInput")
 
 saveJob = document.getElementById("saveJob");
 jsonText = document.getElementById("jsontext");
