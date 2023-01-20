@@ -12,6 +12,7 @@ estSalary = document.getElementById("estSalary");
 stat = document.getElementById("options");
 dateApplied = document.getElementById("dateApplied");
 contact = document.getElementById("contact");
+emailLinks = document.getElementById("emailLink")
 imgInput = document.getElementById("imgInput");
 resumeInput = document.getElementById("resumeInput");
 
