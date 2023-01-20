@@ -40,6 +40,7 @@ saveJob.addEventListener("click", function() {
     ],
     img: '',
     resume: '',
+    coverLetter: '',
   });
   
   if (imgInput.value) {
