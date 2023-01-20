@@ -24,6 +24,7 @@ saveJob.addEventListener("click", function() {
   const savePath = path.join(path.dirname(path.dirname(__dirname))) + '/data/jobs.json';
   const imgFile = imgInput.files[0];
   const resumeFile = resumeInput.files[0];
+  const coverLetterFile = coverLetterInput.files[0];
 
   jobs.push({
     counterId: counter,
