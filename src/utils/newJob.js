@@ -33,6 +33,9 @@ saveJob.addEventListener("click", function() {
     stat: stat.value,
     dateApplied: dateApplied.value,
     contact: contact.value,
+    emailLinks: [
+      emailLink.value,
+    ],
     img: '',
     resume: '',
   });
