@@ -6,6 +6,7 @@ const mainDataPath = path.join(path.dirname(path.dirname(path.dirname(currentFil
 
 const jobPostingsPath = mainDataPath + "jobPostings/";
 const resumePath = mainDataPath + "resumes/";
+const coverLetterPath = mainDataPath + "coverLetters/";
 
 // Determine CounterId of the selected Job
 const selectedJobPath = path.join(mainDataPath + 'selectedJob.json');
