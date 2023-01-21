@@ -86,5 +86,7 @@ openResume.onclick = function() {
 resumeContainer.appendChild(openResume)
 
 let openCoverLetter = document.createElement('button');
+openCoverLetter.type = 'button';
+openCoverLetter.innerHTML = "Open Cover Letter";
 // Export
 export default selectedJobId;
