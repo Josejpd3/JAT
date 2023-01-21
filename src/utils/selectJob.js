@@ -38,6 +38,7 @@ let updateJob = document.getElementById('updateJob')
 const emailLinkContainer = document.getElementById('emailLinkContainer')
 const jobPostingContainer = document.getElementById('jobPostingContainer');
 const resumeContainer = document.getElementById('resumeContainer');
+const coverLetterContainer = document.getElementById('coverLetterContainer');
 
 
 // Giving form input values with job data
