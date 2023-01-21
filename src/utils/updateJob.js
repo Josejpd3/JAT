@@ -74,6 +74,7 @@ updateJob.addEventListener("click", () => {
     applicationToEdit.stat = statElement.value;
     applicationToEdit.dateApplied = dateAppliedElement.value;
     applicationToEdit.contact = contactElement.value;
+    applicationToEdit.emailLinks.push(emailLinkElement.value)
 
     // Convert the object back into a JSON string
     data = JSON.stringify(applications, null, 2);
