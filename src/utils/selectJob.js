@@ -85,5 +85,6 @@ openResume.onclick = function() {
 }
 resumeContainer.appendChild(openResume)
 
+let openCoverLetter = document.createElement('button');
 // Export
 export default selectedJobId;
