@@ -10,6 +10,7 @@ const mainDataPath = path.join(path.dirname(path.dirname(path.dirname(currentFil
 const jobsPath = path.join(mainDataPath + "jobs.json");
 const imgPath = path.join(mainDataPath + "jobPostings/")
 const resumePath = path.join(mainDataPath + "resumes/")
+const coverLetterPath = path.join(mainDataPath + "coverLetters/")
 
 // Selecting the every form input
 let compNameElement = document.getElementById("compName");
