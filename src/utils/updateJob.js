@@ -23,6 +23,7 @@ let contactElement = document.getElementById("contact");
 let emailLinkElement = document.getElementById("emailLink");
 let imgInputElement = document.getElementById("imgInput");
 let resumeInputElement = document.getElementById("resumeInput");
+let coverLetterInputElement = document.getElementById("coverLetterInput");
 let updateJob = document.getElementById("updateJob");
 
 // Update Button Event Listner
