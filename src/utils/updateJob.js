@@ -56,6 +56,16 @@ updateJob.addEventListener("click", () => {
       applicationToEdit.resume = resumeFile.name;
     }
 
+    // Save coverLetterFile in coverLetterDestination
+    if (coverLetterInputElement.value) {
+      const coverLetterFile = coverLetterInputElement.files[0];
+      const coverLetterDestination = coverLetterPath + coverLetterFile.name;
+      const coverLetterSource = fs.createReadStream(coverLetterFile.path);
+      const coverLetterDestinationStream = fs.createWriteStream(coverLetterDestination);
+      coverLetterSource.pipe(coverLetterDestinationStream);
+      applicationToEdit.coverLetter = coverLetterFile.name;
+    }
+
     // Update the job application data
     applicationToEdit.compName = compNameElement.value;
     applicationToEdit.place = placeElement.value;
