@@ -55,16 +55,20 @@ statElement.classList = statElement.value;
 
 
 for (let i = 0; i < selectedJob.emailLinks.length; i++) {
-    console.log(selectedJob.emailLinks[i]);
-    // openEmailLink.href = selectedJob.emailLinks[i];
-    let openEmailLink = document.createElement('button');
-    openEmailLink.type = 'button'
-    openEmailLink.innerHTML = i + 1;
-    openEmailLink.onclick = function() {
-        window.open(selectedJob.emailLinks[i])
+    if (selectedJob.emailLinks[i] != "") {
+        console.log(selectedJob.emailLinks[i]);
+        // openEmailLink.href = selectedJob.emailLinks[i];
+        let openEmailLink = document.createElement('button');
+        openEmailLink.type = 'button'
+        openEmailLink.innerHTML = i;
+        openEmailLink.onclick = function() {
+            window.open(selectedJob.emailLinks[i])
+        }
+        emailLinkContainer.appendChild(openEmailLink)
     }
-    emailLinkContainer.appendChild(openEmailLink)
 }
+
+
 
 
 
